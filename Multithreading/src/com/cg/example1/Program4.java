@@ -1,3 +1,4 @@
+//Priority - Direct method
 package com.cg.example1;
 
 class Gchrome implements Runnable{

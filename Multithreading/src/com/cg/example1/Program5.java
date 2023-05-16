@@ -1,3 +1,5 @@
+//Priority - Constant
+
 package com.cg.example1;
 
 class Scanner implements Runnable{
