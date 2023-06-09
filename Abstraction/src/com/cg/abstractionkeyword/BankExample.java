@@ -21,7 +21,6 @@ public class BankExample {
 
 	public static void main(String[] args) {
 		H15 obj = new H15();
-
 		obj.run();
 		
 

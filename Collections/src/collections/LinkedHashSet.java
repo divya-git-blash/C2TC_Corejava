@@ -4,7 +4,7 @@ import java.util.SortedSet;
 public class LinkedHashSet {
 
 	public static void main(String[] args) {
-		SortedSet<String> lhset = new TreeSet<>();
+		SortedSet lhset = new TreeSet<>();
 		lhset.add("Java");
 		lhset.add("c++");
 		lhset.add("C");

@@ -18,12 +18,12 @@ public class Program4 {
 		Gchrome c1 = new Gchrome();
 		
 		Thread t = new Thread(c1);
-		t.setPriority(1);
+		t.setPriority(5);
 		t.start();
 		
 		Zoom g1 = new Zoom();
 		Thread t1 = new Thread(g1);
-		t1.setPriority(5);
+		t1.setPriority(1);
 		t1.start();
 	}
 }

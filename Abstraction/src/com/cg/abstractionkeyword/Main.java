@@ -1,11 +1,10 @@
 package com.cg.abstractionkeyword;
 //abstract class
-abstract class Bike{
+abstract class Bikee{
 	abstract void run();
 	
 }//Concrete class
-class Honda extends Bike{
-
+class Star extends Bikee{
 	@Override
 	void run() {
 		System.out.println("Hond Bike");
@@ -17,7 +16,7 @@ class Honda extends Bike{
 
 public class Main {
 	public static void main(String[] args){
-		Honda h= new Honda();
+		Star h= new Star();
 		h.run();
 		h.show();
 		

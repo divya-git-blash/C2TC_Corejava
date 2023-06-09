@@ -19,7 +19,7 @@ public class Program5 {
 		Scanner sc1 = new Scanner();
 		
 		Thread t = new Thread(sc1);
-		t.setPriority(5);
+		t.setPriority(Thread.MAX_PRIORITY);
 		t.start();
 		
 		Whatsappweb w1 = new Whatsappweb();
